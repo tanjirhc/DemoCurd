@@ -4,7 +4,7 @@ namespace DemoCurd.Data
 {
     public class AppplicationDbContext : DbContext 
     {
-        public AppplicationDbContext(DbContextOptions<ApplicationDbContext>options): base(options) 
+        public AppplicationDbContext(DbContextOptions<AppplicationDbContext> options): base(options) 
         {
 
         }
